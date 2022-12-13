@@ -1,0 +1,65 @@
+.pageFloat {
+  position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0;
+  width: 254px;
+  height: 494px;
+  background: url(../img/right_nav_bg.png) no-repeat;
+}
+
+.pageFloat .downpart {
+  padding: 0 60px;
+}
+
+.pageFloat .downpart .code {
+  width: 100%;
+}
+
+.right-nav .right-list {
+  position: relative;
+  left: 60px;
+}
+
+.right-nav .right-list .item a {
+  display: block;
+  height: 100%;
+}
+
+.right-nav .right-list .item.code {
+  height: 116px;
+  text-align: center;
+  background-position: 0 -3px;
+}
+
+.right-nav .right-list .item.code img {
+  width: 111px;
+  height: 110px;
+  margin-top: 3px;
+}
+
+.pageFloat .social .right_sprite.wb {
+  background-position: -122px -120px;
+}
+
+.pageFloat .social .right_sprite.wb:hover {
+  background-position: -122px -240px;
+}
+
+.pageFloat .social .right_sprite.wx {
+  background-position: -122px -160px;
+}
+
+.pageFloat .social .right_sprite.wx:hover {
+  background-position: -122px -200px;
+}
+
+.pageFloat .social .right_sprite.sp {
+  background-position: -122px 0;
+}
+
+.pageFloat .social .right_sprite.sp:hover {
+  background-position: -122px -42px;
+}
+
+

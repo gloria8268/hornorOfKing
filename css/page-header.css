@@ -1,0 +1,155 @@
+/* header */
+.header {
+  height: 84px;
+  background-color: rgba(0,0,0,.8);
+}
+
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+ /* header-left */
+.header-left{
+  display: flex;
+}
+
+.header-logo a{
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 200px;
+  height: 54px;
+  text-indent: -9999px;
+  background-image: url(../img/logo.png);
+}
+
+.header-bar {
+  display: flex;
+  margin-left: 30px;
+}
+
+.header-bar-options {
+  width: 110px;
+  padding-right: 5px;
+}
+
+.header-bar-options:hover,
+.header-bar-options.active {
+  background: url(../img/main_sprite.png) no-repeat 0 0;
+}
+
+.header-bar-options:hover a,
+.header-bar-options.active a{
+  color: #e4b653;
+}
+
+.header-bar-options:hover .header-bar-options-desc,
+.header-bar-options.active .header-bar-options-desc {
+  color: #91763f;
+}
+
+.header-bar-options a {
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #c9c9dd;
+}
+
+.header-bar-options-desc {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #858792;
+}
+
+.header-left-search {
+  margin-left: 10px;
+}
+
+.header-left-search a{
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 27px;
+  height: 26px;
+  background: url(../img/nav_search.png);
+}
+
+ /* header-right */
+.header-right{
+  display: flex;
+  align-items: center;
+}
+
+.header-right-levelIcon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #d9ad50;
+  border-radius: 50%;
+}
+
+.header-right-login {
+  margin-left: 12px;
+}
+
+.header-right-login a{
+  color: #fff;
+}
+
+.header-right-login p {
+  margin-top: 5px;
+  color: #858792;
+}
+/* header */
+
+/* dropdown-menue */
+.header .header-show {
+  /* position: absolute;
+  left: 0;
+  right: 0;
+  top: 84px; */
+  height: 0px;
+  background-color: rgba(0,0,0,.7);
+  overflow: hidden;
+}
+
+.header:hover .header-show{
+animation: dropdownlist 300ms ease forwards;
+  /* height: 285px; */
+}
+
+.header-show-box {
+  display: flex;
+  box-sizing: border-box;
+  width: 940px;
+  height: 100%;
+  padding: 15px 0 30px 50px;
+  margin: 0 auto;
+}
+
+.header-show-box .list {
+  width: 115px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.header-show-box .item {
+  height: 30px;
+  line-height: 30px;
+}
+
+.header-show-box .list .item a {
+  color: #c9c9dd;    
+}
+
+.header-show-box .item a:hover {
+  color: #f3c258;
+  text-decoration: underline;
+}
+
